@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+{% block body_block %}
+    <h1>Welcome to HomePAge</h1>
+    <h2> At HOMEPAGE!</h2>
+    <h1>{{ text|upper}}</h1>
+      <h1>{{ text|cut:'Hello'}}</h1>
+    <h2>{{ number|add:"99" }}</h2>
+
+{% endblock %}
